@@ -48,9 +48,9 @@ h6{
 /* scrollama */
 
 .scroll__graphic {
-  position: absolute;
-  width: 100%;
-  top: 50vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
   height: 50vh;
 }
 
@@ -63,6 +63,15 @@ h6{
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+
+.col__graphic{
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
 
 /* footer */
 
@@ -93,6 +102,10 @@ h6{
 
   .step {
     height: 100vh;
+  }
+
+  .col__graphic{
+    position: relative;
   }
 
   .scroll__text{
