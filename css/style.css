@@ -1,0 +1,107 @@
+html,
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: 700;
+}
+
+
+/* header */
+
+.header-wrapper{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://timedotcom.files.wordpress.com/2018/05/facebook-mark-zuckerberg-f8-2018.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.header-title{
+  font-size: 5rem;
+}
+
+.break-wrapper{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://richmondbizsense.com/wp-content/uploads/2017/11/facebook-rend.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+  }
+
+.break-title{
+  font-size: 3rem;
+}
+
+
+/* scrollama */
+
+.scroll__graphic {
+  position: absolute;
+  width: 100%;
+  top: 50vh;
+  height: 50vh;
+}
+
+.step {
+  padding: 2rem;
+  height: 50vh;
+}
+
+.scroll__graphic__tab{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* footer */
+
+.footer-wrapper{
+  border-top: 1px solid black;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .scroll__graphic {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    height: 100vh;
+  }
+
+  .step {
+    height: 100vh;
+  }
+
+  .scroll__text{
+    /* height: 100vh;
+    overflow: hidden; */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
